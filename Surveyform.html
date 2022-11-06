@@ -45,15 +45,17 @@
     
     
                 <label for="recommendation">Would you recommend freeCodeCamp to a friend?</label><br>
-                <label for="Definitely"><input type="radio" id="Definitely" name="definetly" value="Definitely"
-                        checked>Definitely</label>
+                <fieldset id="recommendation">
+                <label for="r_Definitely"><input type="radio" id="r_Definitely" name="Definitely" value="Definitely"
+                        required>Definitely</label>
                 <br>
     
-                <label for="Maybe"><input type="radio" id="Maybe" name="Maybe" value="Maybe">Maybe</label>
+                <label for="r_Maybe"><input type="radio" id="r_Maybe" name="Maybe" value="Maybe" required>Maybe</label>
                 <br>
     
-                <label for="Not sure"><input type="radio" id="Not sure" name="Not sure" value="Not sure">Not sure</label>
+                <label for="r_Not_sure"><input type="radio" id="r_Not_sure" name="Not sure" value="Not sure" required>Not sure</label>
                 <br>
+                </fieldset>
     
                 <label for="feature">What is your favorite feature of freeCodeCamp?</label><br>
                 <select name="feature" id="feature">
